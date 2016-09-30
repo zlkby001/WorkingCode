@@ -1,0 +1,20 @@
+#Tue Sep 06 08:49:04 CST 2016
+eclipse.preferences.version=1
+encoding//WebRoot/UserList.jsp=UTF-8
+encoding//WebRoot/contrast.jsp=UTF-8
+encoding//WebRoot/contrastResult.jsp=UTF-8
+encoding//WebRoot/index2.jsp=UTF-8
+encoding//WebRoot/test.jsp=UTF-8
+encoding//WebRoot/userTree.jsp=UTF-8
+encoding//src/cn/ac/sklois/imm/admin=GBK
+encoding//src/cn/ac/sklois/imm/admin/AdminService.java=UTF-8
+encoding//src/cn/ac/sklois/imm/admin/AdminsDBBean.java=UTF-8
+encoding//src/cn/ac/sklois/imm/admin/deleteAdminServlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/admin/deleteUserServlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/admin/loginservlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/admin/uploadknowledgefromxmlServlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/mappings/addAllWhitelistServlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/mappings/deleteAllHistorylistServlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/mappings/deleteAllWhitelistServlet.java=UTF-8
+encoding//src/cn/ac/sklois/imm/upload/testServlet.java=UTF-8
+encoding/<project>=UTF-8

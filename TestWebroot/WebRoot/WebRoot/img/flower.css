@@ -1,0 +1,99 @@
+A:link {
+	COLOR: #333333; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: TEXT-DECORATION: none
+}
+A.pay:link {
+	COLOR: #333333; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.pay:visited {
+	COLOR: #333333; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.pay:active {
+	COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.pay:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.a01:link {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.a01:visited {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.a01:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.a02:link {
+	FONT-SIZE: 9pt; COLOR: #333333; TEXT-DECORATION: none
+}
+A.a02:visited {
+	FONT-SIZE: 9pt; COLOR: #333333; TEXT-DECORATION: none
+}
+A.a02:hover {
+	FONT-SIZE: 9pt; COLOR: #ff9900; TEXT-DECORATION: underline
+}
+A.a03:link {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.a03:visited {
+	FONT-SIZE: 9pt; COLOR: #990000; TEXT-DECORATION: none
+}
+A.a03:hover {
+	FONT-SIZE: 9pt; COLOR: #009900; TEXT-DECORATION: underline
+}
+A.a04:link {
+	FONT-SIZE: 9pt; COLOR: #545454; TEXT-DECORATION: none
+}
+A.a04:visited {
+	FONT-SIZE: 9pt; COLOR: #545454; TEXT-DECORATION: none
+}
+A.a04:hover {
+	FONT-SIZE: 9pt; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.a11:link {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.a11:visited {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.a11:hover {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.menu:link {
+	FONT-SIZE: 10pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-SIZE: 10pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	FONT-SIZE: 10pt; COLOR: #ff9900; TEXT-DECORATION: underline
+}
+A.menu1:link {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu1:visited {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu1:hover {
+	FONT-SIZE: 9pt; COLOR: #ff9900; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 9pt
+}
+TH {
+	FONT-SIZE: 9pt
+}
+TD {
+	FONT-SIZE: 9pt
+}
+.a {
+	FONT-SIZE: 9pt
+}
