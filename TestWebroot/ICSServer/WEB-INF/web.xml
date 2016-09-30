@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<servlet>
+		<servlet-name>XFireServlet</servlet-name>
+		<servlet-class>org.codehaus.xfire.transport.http.XFireConfigurableServlet</servlet-class>
+		<init-param>
+			<param-name>syslogIP</param-name>
+			<param-value>127.0.0.1</param-value>
+		</init-param>
+		<init-param>
+			<param-name>syslogPort</param-name>
+			<param-value>9999</param-value>
+		</init-param>
+		<init-param>
+			<param-name>syslogOpen</param-name>
+			<param-value>1</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XFireServlet</servlet-name>
+		<url-pattern>/services/*</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>ViewMetricServlet</servlet-name>
+		<servlet-class>com.ics.servlet.ViewMetricServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewMetricServlet</servlet-name>
+		<url-pattern>/ViewMetricServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchMetricServlet</servlet-name>
+		<servlet-class>com.ics.servlet.SearchMetricServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchMetricServlet</servlet-name>
+		<url-pattern>/SearchMetricServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddKnowledgeServlet</servlet-name>
+		<servlet-class>com.ics.servlet.AddKnowledgeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddKnowledgeServlet</servlet-name>
+		<url-pattern>/AddKnowledgeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SupplyKnowledgeServlet</servlet-name>
+		<servlet-class>com.ics.servlet.SupplyKnowledgeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SupplyKnowledgeServlet</servlet-name>
+		<url-pattern>/SupplyKnowledgeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowKnowledgeServlet</servlet-name>
+		<servlet-class>com.ics.servlet.ShowKnowledgeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowKnowledgeServlet</servlet-name>
+		<url-pattern>/ShowKnowledgeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ViewKnowledgeServlet</servlet-name>
+		<servlet-class>com.ics.servlet.ViewKnowledgeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewKnowledgeServlet</servlet-name>
+		<url-pattern>/ViewKnowledgeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ModifyKnowledgeServlet</servlet-name>
+		<servlet-class>com.ics.servlet.ModifyKnowledgeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModifyKnowledgeServlet</servlet-name>
+		<url-pattern>/ModifyKnowledgeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RecountServlet</servlet-name>
+		<servlet-class>com.ics.servlet.RecountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecountServlet</servlet-name>
+		<url-pattern>/RecountServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
